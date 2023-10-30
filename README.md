@@ -1,2 +1,22 @@
-# WriterIdentification-AutoencoderExtension
- This repository houses the code and resources related to an innovative extension in writer identification, enhancing the capabilities of DeepWriter through the integration of an autoencoder architecture. The autoencoder adds a layer of feature compression and learning, contributing to improved model performance. Our research aims to bridge the gap between traditional and deep learning techniques in the context of writer identification, offering a nuanced approach to feature extraction and classification. Explore the code, experiments, and findings to advance the field of writer identification in real-world applications.
+# IAM Writer Recognition
+
+IAM Dataset Writer Recognition Using a CNN
+
+### Installation
+  - [Install Anaconda or Miniconda](https://conda.io/docs/user-guide/install/macos.html)
+  - Run ``conda env create -f environment.yml`` to install dependencies
+  - Run ``source activate iam_writer_recognition`` to activate environment
+  - Configure Jupyter to use the conda environment by running:
+    - ``python -m ipykernel install --user --name=iam_writer_recognition``
+  - Setup dataset as explained [here](./data/README.md)
+  - Initialize Jupyter by running ``jupyter notebook`` in your terminal
+  - In the Jupyter dashboard, navigate to [./src/solution.ipynb](./src/solution.ipynb) and execute the code
+
+
+### How to run
+- need to install anaconda
+- in anaconda navigator you will need to install tensorflow and keras in environments under base(root)
+- download iam database sentences.tgz and place it in the data folder
+- extract it there
+- the directory should look like this data/sentences/a01/a01-000u/a01-000u-s00-00.png
+- 
