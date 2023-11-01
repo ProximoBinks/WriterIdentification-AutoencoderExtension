@@ -1,3 +1,5 @@
+https://chat.openai.com/c/80fe6e8f-429c-4970-90db-35d343b18354
+
 To incorporate an autoencoder into your writer identification model and allow it to add an additional class without further retraining, you can follow these steps:
 
 Extract Features with a Convolutional Base:
