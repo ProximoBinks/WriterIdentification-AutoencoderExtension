@@ -1,17 +1,8 @@
-# IAM Writer Recognition
+# DeepWriter
+Implementation of ["DeepWriter: A Multi-Stream Deep CNN for Text-independent Writer Identification"](https://arxiv.org/abs/1606.06472)
 
-IAM Dataset Writer Recognition Using a CNN
+Contains the DeepWriter and HalfDeepWriter network architecture implementation.
+A random image stripping is also implemented.
 
-### Installation
-  - [Install Anaconda or Miniconda](https://conda.io/docs/user-guide/install/macos.html)
-  - Setup dataset as explained [here](./data/README.md)
-  - Initialize Jupyter by running ``jupyter notebook`` in your terminal
-  - In the Jupyter dashboard, navigate to [./src/solution.ipynb](./src/solution.ipynb) and execute the code
-
-
-### Other Installations
-- need to install anaconda
-- in anaconda navigator you will need to install tensorflow and keras in environments under base(root)
-- download iam database sentences.tgz and place it in the data folder
-- extract it there
-- the directory should look like this data/sentences/a01/a01-000u/a01-000u-s00-00.png
+Modify the loadData() function to work with dataset.
+The X must contain image of shape (row, column, 1) and y must contain target class.
