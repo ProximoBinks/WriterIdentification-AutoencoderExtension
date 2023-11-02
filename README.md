@@ -23,6 +23,8 @@ A notebook should open in your browser and navigate to the DeepWriter.ipynb
 
 Once open follow the instructions in the notebook to download the temp_sentences.zip and Demo.zip
 
+The directory should look like ```./data/Demo/new-class``` ```./data/Demo/test1.png``` ```./data/temp_sentences/*.png```
+
 Press the Kernel drop down then finally, "Restart & Run All"
 
 Follow the rest of the instructions in the notebook to run a demo
