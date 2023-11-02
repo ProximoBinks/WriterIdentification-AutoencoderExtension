@@ -1,0 +1,1 @@
+Writer 43's Text Samples
